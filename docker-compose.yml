@@ -1,0 +1,7 @@
+version: '3'
+services:
+  consumer-backend:
+    ports:
+      - "9010:8000"
+    volumes:
+      - /var/log/kraftbase_project:/var/log/kraftbase-project
