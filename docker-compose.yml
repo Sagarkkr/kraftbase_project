@@ -1,6 +1,6 @@
 version: '3'
 services:
-  consumer-backend:
+  kraftbase_project:
     ports:
       - "9010:8000"
     volumes:
